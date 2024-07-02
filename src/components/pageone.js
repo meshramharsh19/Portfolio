@@ -16,14 +16,16 @@ export default function Navbar() {
                                 loop
                             />
                         </h1>
-                        <p style={{color:"black"}}>I am Harsh Meshram, a passionate web and Python developer studying Information Technology at JD College of Engineering and Management, Nagpur. I have practical experience from internships at Internpe and Motion Cuts (AICTE) and have developed projects like Text to Speak and TextUtils, showcasing my skills in Python, HTML, CSS, JavaScript, and Figma.</p>
+                        <p style={{color: "black", paddingLeft: "1rem", paddingRight: "1rem", wordWrap: "break-word"}}>
+                            I am Harsh Meshram, a passionate web and Python developer studying Information Technology at JD College of Engineering and Management, Nagpur. I have practical experience from internships at Internpe and Motion Cuts (AICTE) and have developed projects like Text to Speak and TextUtils, showcasing my skills in Python, HTML, CSS, JavaScript, and Figma.
+                        </p>
                         <a href="https://www.linkedin.com/in/harsh-meshram-5b8271258/" target="_blank" rel="noopener noreferrer">
                             <button type="button" className="btn btn-primary">Let's Connect</button>
                         </a>
                     </div>
 
-                    <div className="col image-myportfolio" >
-                        <img src="/myportfolio.png" className="card-img-top" alt="bhai kyu nhi hora laod" />
+                    <div className="col image-myportfolio">
+                        <img src="/myportfolio.png" className="card-img-top" alt="Portfolio"  />
                     </div>
                 </div>
             </div>

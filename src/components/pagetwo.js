@@ -8,7 +8,7 @@ export default function Navbar() {
             </div>
              <div className="pagetwo">
             <div className="card">
-            <img src="/yt.png" className="card-img-top" alt="YouTube-Prototype"/>
+            <img src="/YouTube.png" className="card-img-top" alt="YouTube-Prototype"/>
                     <div className="card-body">
                         <h6>YouTube-Prototype</h6>
                         <p className="card-text">A modern YouTube prototype emphasizing user-friendly design, intuitive navigation, and personalized content discovery for enhanced viewing experiences.</p>
