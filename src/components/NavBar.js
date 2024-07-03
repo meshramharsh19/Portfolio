@@ -19,7 +19,7 @@ export default function Navbar() {
                         </div>
                     </div>
                     <div>
-                        <a href="https://www.linkedin.com/in/harsh-meshram-5b8271258/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://drive.google.com/file/d/1MVe3ZDXf2cogcTD8q33QL4xlyonQTGfT/view?usp=sharing/" target="_blank" rel="noopener noreferrer">
                             <button type="button" className="btn btn-outline-primary">My Resume</button>
                         </a>
                     </div>
