@@ -35,21 +35,6 @@
     transform: rotate(360deg);
   }
 }
-/* .pageone{
-  display: flex;
-  justify-content: center;
-  margin-top:3rem;
-  margin-bottom:3rem;
-}
-
-row row-cols-1 row-cols-md-2 g-4 h1{
-  font-weight: bolder;
-}
-.pageone h1{
-  color: rgb(75, 75, 246);
-} */
-
-
 .pageone {
   display: flex;
   justify-content: center;
@@ -66,30 +51,7 @@ row row-cols-1 row-cols-md-2 g-4 h1{
   color: rgb(75, 75, 246);
 }
 
-.onetext {
-  margin-top: 10vh;
-}
 
-
-.pageone {
-  display: flex;
-  justify-content: center;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  flex-wrap: wrap;
-}
-
-.row.row-cols-1.row-cols-md-2.g-4 h1 {
-  font-weight: bolder;
-}
-
-.pageone h1 {
-  color: rgb(75, 75, 246);
-}
-
-.onetext {
-  margin-top: 10vh;
-}
 
 .image-myportfolio img {
   height: 55vh;
@@ -97,8 +59,15 @@ row row-cols-1 row-cols-md-2 g-4 h1{
   margin-left: 23vh;
   max-width: 100%;
 }
+@media (max-width: 1080px){
+  .image-myportfolio img{
+    margin-left: 4vh;
+    margin-top: 5vh;
+    height: 30vh;
+    max-width: 100%;
+  }
+}
 
-/* Responsive styles */
 @media (max-width: 768px) {
   .pageone {
       flex-direction: column;
@@ -138,14 +107,7 @@ row row-cols-1 row-cols-md-2 g-4 h1{
 .pagetwo{
   display: ruby;
 }
-.card{
-  width: 30rem;
-  margin: 2rem;
 
-}
-/* .card:hover {
-  background-color: #dbe9ff;
-} */
 .card-container {
   display: flex;
   flex-wrap: wrap;
@@ -162,6 +124,7 @@ row row-cols-1 row-cols-md-2 g-4 h1{
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   background-color: #fff;
+  margin: 2rem;
 }
 
 .card:hover {
