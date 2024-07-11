@@ -6,7 +6,7 @@ export default function Navbar() {
         <div className="sticky-top">
             <nav className="navbar navbar-expand-lg navbar-light bg-light" style={{background:"#d9d9cd"}}>
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="/"><img src="logo192.png" alt="" style={{height:"7vh"}}/></a>
+                    <a className="navbar-brand" href="/"><img src="logo192.png" alt="" /></a>
                     {/* <a className="navbar-brand" href="/" style={{color:"blue"}}><h2>HARSH</h2></a> */}
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>

@@ -35,6 +35,20 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar-brand img {
+  height: 7vh;
+}
+@media (max-width: 450px) {
+  .navbar-brand img {
+    height: 5vh;
+  }
+}
+@media (max-width: 1024px) {
+  .navbar-brand img {
+    height: 4vh;
+  }
+}
 .pageone {
   display: flex;
   justify-content: center;
