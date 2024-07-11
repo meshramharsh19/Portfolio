@@ -41,7 +41,7 @@
 }
 @media (max-width: 450px) {
   .navbar-brand img {
-    height: 5vh;
+    height: 3vh;
   }
 }
 @media (max-width: 1024px) {
