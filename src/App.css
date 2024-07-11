@@ -382,3 +382,13 @@ footer {
 .fd h3{
   margin-left: 3rem;
 }
+.nav-link img{
+  height: 4vh;
+}
+.resume{
+  text-decoration:none
+}
+/* #navbarNavAltMarkup{
+  display:flex;
+  justify-contact:end;
+} */
