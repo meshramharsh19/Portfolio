@@ -41,12 +41,12 @@
 }
 @media (max-width: 450px) {
   .navbar-brand img {
-    height: 3vh;
+    height: 5vh;
   }
 }
 @media (max-width: 1024px) {
   .navbar-brand img {
-    height: 4vh;
+    height: 3vh;
   }
 }
 .pageone {
